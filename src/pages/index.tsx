@@ -24,9 +24,9 @@ export default function Home() {
         <Heading size='md'>自己紹介</Heading>
           <Flex gap='4'>
             <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-              <Avatar name='Segun Adebayo' src='https://nekonavi.jp/wp-content/uploads/2015/06/image82.jpg' />
+              <Avatar name='Segun Adebayo' src='https://nekonavi.jp/wp-content/uploads/2015/06/image82.jpghttps://nichegamer.com/wp-content/uploads/2023/02/monster-hunter-rise-sunbreak-02-01-23-1.jpg' />
               <Box>
-                <Heading size='sm'>Cassidy</Heading>
+                <Heading size='sm'>tana</Heading>
                 <Text>Iyatomi lab</Text>
               </Box>
             </Flex>
@@ -40,7 +40,7 @@ export default function Home() {
                 好きな食べ物
               </Heading>
               <Text pt='2' fontSize='sm'>
-                ラーメン
+                お前
               </Text>
             </Box>
             <Box bg='green.100' p='4' borderRadius='md'>
@@ -48,7 +48,7 @@ export default function Home() {
                 趣味
               </Heading>
               <Text pt='2' fontSize='sm'>
-                街歩き
+                スキーすき
               </Text>
             </Box>
             <Box bg='blue.100' p='4' borderRadius='md'>
@@ -56,7 +56,7 @@ export default function Home() {
                 やっているバイト
               </Heading>
               <Text pt='2' fontSize='sm'>
-                塾バイト
+                塾バイト(ブラック)
               </Text>
             </Box>
           </Stack>
