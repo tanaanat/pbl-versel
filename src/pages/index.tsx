@@ -1,6 +1,4 @@
-// pages/index.js
 import React from 'react';
-
 import { 
   Button, 
   Card, 
@@ -8,16 +6,32 @@ import {
   CardBody, 
   Text, 
   Heading, 
-  Box, 
   Stack, 
   StackDivider,
   Flex,
-  Avatar
-} from '@chakra-ui/react';
-import { BiLike, BiChat, BiShare } from 'react-icons/bi';
-
-export default function Home() {
+  Avatar,
+  Box, 
+  HStack, 
+  Link,
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon, 
+} from "@chakra-ui/react";
+export default function Home(){
   return (
+<Accordion>
+  <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+          Introduce
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
     <> 
       <Card>
         <CardHeader>
@@ -37,10 +51,10 @@ export default function Home() {
           <Stack divider={<StackDivider />} spacing='4'>
             <Box bg='red.100' p='4' borderRadius='md'>
               <Heading size='xs' textTransform='uppercase'>
-                好きな食べ物
+                好きなゲーム
               </Heading>
               <Text pt='2' fontSize='sm'>
-                お前
+                モンハン、valorant
               </Text>
             </Box>
             <Box bg='green.100' p='4' borderRadius='md'>
@@ -48,7 +62,7 @@ export default function Home() {
                 趣味
               </Heading>
               <Text pt='2' fontSize='sm'>
-                スキーすき
+                スキー
               </Text>
             </Box>
             <Box bg='blue.100' p='4' borderRadius='md'>
@@ -56,22 +70,29 @@ export default function Home() {
                 やっているバイト
               </Heading>
               <Text pt='2' fontSize='sm'>
-                塾バイト(ブラック)
+                塾バイト
               </Text>
             </Box>
           </Stack>
         </CardBody>
       </Card>
+      </>
+    </AccordionPanel>
+  </AccordionItem>
 
-      <Button flex='1' variant='ghost' leftIcon={<BiLike />}>
-      Like
-    </Button>
-    <Button flex='1' variant='ghost' leftIcon={<BiChat />}>
-      Comment
-    </Button>
-    <Button flex='1' variant='ghost' leftIcon={<BiShare />}>
-      Share
-    </Button>
-    </>
+  <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as='span' flex='1' textAlign='left'>
+         Conclusion
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      このサイトにアクセスしていただきありがとうございました。
+    </AccordionPanel>
+  </AccordionItem>
+</Accordion>
   );
 }
