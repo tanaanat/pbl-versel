@@ -24,7 +24,7 @@ export default function Home() {
         <Heading size='md'>自己紹介</Heading>
           <Flex gap='4'>
             <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-              <Avatar name='Segun Adebayo' src='https://nekonavi.jp/wp-content/uploads/2015/06/image82.jpghttps://nichegamer.com/wp-content/uploads/2023/02/monster-hunter-rise-sunbreak-02-01-23-1.jpg' />
+              <Avatar name='Segun Adebayo' src='https://automaton-media.com/wp-content/uploads/2021/09/20210924-176674-header.jpg' />
               <Box>
                 <Heading size='sm'>tana</Heading>
                 <Text>Iyatomi lab</Text>
