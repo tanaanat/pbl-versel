@@ -70,7 +70,7 @@ export default function Home(){
                 やっているバイト
               </Heading>
               <Text pt='2' fontSize='sm'>
-                塾バイト(ブラック)
+                塾バイト
               </Text>
             </Box>
           </Stack>
